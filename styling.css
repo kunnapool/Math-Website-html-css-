@@ -54,7 +54,12 @@ h1 a
     padding: 10px;
     font-size: 15px;
     
+    background: white url(images/search.png) right center no-repeat;
+    
 }
+
+
+
 
 #submit
 {
@@ -66,3 +71,98 @@ h1 a
     margin-top: 25px;
     background: radial-gradient(black, blue);
 }
+
+.clear
+{
+    clear: both;
+}
+
+
+ul
+{
+    list-style: none;
+}
+
+
+#menu
+{
+
+    height: 70px;
+    background: radial-gradient(yellow, grey);
+    padding-top: 5px;
+    padding-left: 200px;
+}
+
+
+.menu ul li
+{
+ 
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    height: 20px;
+    border-right: 1px solid blueviolet;
+    height: 30px;
+    
+    
+}
+
+#menu ul li a
+{
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    transform: scale(1.5);
+    
+    transition: font-size 0.5s;
+    
+    /* other browsers */
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+    -ms-transition: font-size 0.5s;
+    
+}
+
+/* remove last | */
+#menu ul li:last-child
+{
+
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active
+{
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+    transform: scale(1.5);
+    
+}
+
+#introduction
+{
+    background: linear-gradient(lightgreen, white);
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#introduction h3
+{
+    font-size: 40px;
+    color: darkgreen;
+    font-weight: normal;
+}
+
+#introduction p
+{
+    font-size: 20px;
+    color: green;
+    text-align: justify;
+}
+
